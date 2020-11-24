@@ -33,9 +33,11 @@
     
 09. 02:30 p.m. Indexación de datos en el portal de ALA
 
-10. 03:00 p.m. Manejo de capas geoespaciales
+10. 03:00 Café
 
-11. 04:00 p.m. Sesión práctica (tarea): Indexación de datos en el portal de ALA
+11. 03:15 p.m. Manejo de capas geoespaciales
+
+12. 04:00 p.m. Sesión práctica (tarea): Indexación de datos en el portal de ALA
 
 
 ## Recursos
