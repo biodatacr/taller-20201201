@@ -16,8 +16,9 @@
     * El estándar Darwin Core
     
 03. 08:45 a.m. Conceptos de publicación de datos
-    * Licencias
+    * Licencias para compartir datos de biodiversidad
     * El Darwin Core Archive
+    * El Integrated Publishing Toolkit (IPT)
     
 04. 09:45 a.m. Demostración del IPT
 
