@@ -6,14 +6,14 @@
 
 ## Agenda
 
-1. 08:00 a.m. Lectura y discusión de la agenda.
-2. 00:00 a.m. Fuentes de datos de biodiversidad.
-3. 00:00 a.m. Conceptos de publicación de datos e introducción al IPT.
-4. 00:00 a.m. Presentación y demostración del IPT.
-
-00:00 a.m. Sesión práctica: Publicación de datos por medio del IPT
-Creación de un recurso a partir de datos en una hoja electrónica
-Introducción a la administración del portal de ALA 
-Ejercicio 2: Indexación de datos de una institución en el portal de la Biodatacr a partir de un IPT.
-Indexación de datos a partir de GBIF 
-Administración de capas geoespaciales
+01. 08:00 a.m. Lectura y discusión de la agenda
+02. 08:15 a.m. Fuentes de datos de biodiversidad
+03. 08:45 a.m. Conceptos de publicación de datos e introducción al IPT (con demo)
+04. 09:45 a.m. Presentación y demostración del IPT
+05. 10:45 a.m. Café
+06. 11:00 a.m. Sesión práctica: Publicación de datos por medio del IPT
+07. 12:30 p.m. Almuerzo
+08. 01:30 p.m. Introducción al portal de ALA
+09. 02:30 p.m. Indexación de datos en el portal de ALA
+10. 03:00 p.m. Administración de capas geoespaciales
+11. 04:00 p.m. Sesión práctica (tarea): Indexación de datos a partir de GBIF
