@@ -8,8 +8,8 @@
 
 01. 08:00 a.m. Lectura y discusión de la agenda
 02. 08:15 a.m. Fuentes de datos de biodiversidad
-* Fuentes de datos
-* El estándar Darwin Core
+    * Fuentes de datos
+    * El estándar Darwin Core
 03. 08:45 a.m. Conceptos de publicación de datos
 04. 09:45 a.m. Presentación y demostración del IPT
 05. 10:45 a.m. Café
