@@ -31,13 +31,13 @@
     * Tecnologías utilizadas
     * Administración de datos
     
-09. 02:30 p.m. Indexación de datos en el portal de ALA
+09. 02:30 p.m. Indexación de datos en el portal de BIODATACR
 
 10. 03:00 Café
 
 11. 03:15 p.m. Manejo de capas geoespaciales
 
-12. 04:00 p.m. Sesión práctica (tarea): Indexación de datos en el portal de ALA
+12. 04:00 p.m. Sesión práctica (tarea): Indexación de datos en el portal de BIODATACR
 
 
 ## Recursos
