@@ -38,5 +38,5 @@
 11. 04:00 p.m. Sesión práctica (tarea): Indexación de datos en el portal de ALA
 
 
-## Materiales
+## Recursos
 * [Presentaciones](https://docs.google.com/presentation/d/1AA1m4ipXBemBnLRmSzmdkZemRllivo8uaOqf_qTyZ3Y/edit?usp=sharing)
