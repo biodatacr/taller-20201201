@@ -26,7 +26,7 @@
 
 07. 12:30 p.m. Almuerzo
 
-08. 01:30 p.m. Introducción al portal de ALA
+08. 01:30 p.m. Introducción al portal de BIODATACR
     * Arquitectura
     * Tecnologías utilizadas
     * Administración de datos
