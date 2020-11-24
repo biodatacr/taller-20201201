@@ -4,7 +4,7 @@
 
 ## Objetivos
 
-Introducir a los participantes en temas relacionados con el proceso de publicación de datos de biodiversidad utilizando estándares globales de información sobre biodiversidad
+Introducir a los participantes en temas relacionados con el proceso de publicación de datos de biodiversidad mediante estándares globales y herramientas de software libre. 
 
 ## Agenda
 
