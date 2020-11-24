@@ -39,4 +39,4 @@
 
 
 ## Recursos
-* [Presentaciones](https://docs.google.com/presentation/d/1AA1m4ipXBemBnLRmSzmdkZemRllivo8uaOqf_qTyZ3Y/edit?usp=sharing)
+* [Presentaciones](https://drive.google.com/drive/folders/1iOsUtpDz5K82K4llXS1nde5olNq56rFE?usp=sharing)
