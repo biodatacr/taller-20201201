@@ -1,4 +1,4 @@
-# Taller de capacitación para funcionarios de Conagebio
+# Taller de capacitación en publicación de datos de biodiversidad y administración del portal de BIODATACR
 
 **Fecha:** 1 de diciembre de 2020
 
