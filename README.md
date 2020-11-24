@@ -34,7 +34,7 @@
     
 09. 02:30 p.m. Indexación de datos en el portal de BIODATACR
 
-10. 03:00 Café
+10. 03:00 p.m. Café
 
 11. 03:15 p.m. Manejo de capas geoespaciales
 
