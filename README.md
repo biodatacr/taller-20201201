@@ -4,7 +4,8 @@
 
 ## Objetivos
 
-Introducir a los participantes en temas relacionados con el proceso de publicación de datos de biodiversidad mediante estándares globales y herramientas de software libre. 
+1. Introducir a los participantes en el proceso de publicación de datos de biodiversidad mediante estándares y herramientas de software libre desarrollados por la comunidad global de informática de la biodiversidad.
+2. Desarrollar capacidades en la administración del portal de datos de biodiversidad de la plataforma BIODATACR.
 
 ## Agenda
 
