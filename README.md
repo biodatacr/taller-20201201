@@ -2,7 +2,7 @@
 
 **Fecha:** 1 de diciembre de 2020
 
-## Objetivos
+## Objetivos:  
 
 ## Agenda
 
