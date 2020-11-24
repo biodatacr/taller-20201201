@@ -2,7 +2,9 @@
 
 **Fecha:** 1 de diciembre de 2020
 
-## Objetivos:  
+## Objetivos
+
+Introducir a los participantes en temas relacionados con el proceso de publicación de datos de biodiversidad utilizando estándares globales de información sobre biodiversidad
 
 ## Agenda
 
