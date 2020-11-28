@@ -44,7 +44,7 @@
 ## Recursos
 * [Presentaciones](https://drive.google.com/drive/folders/1iOsUtpDz5K82K4llXS1nde5olNq56rFE?usp=sharing)
 ### IPT
-* Página web del IPT
+* Página web del IPT  
 [IPT: The Integrated Publishing Toolkit](https://www.gbif.org/ipt/)
-* Video introductorio al IPT
+* Video introductorio al IPT  
 [Introduction to publishing using the GBIF Integrated Publishing Toolkit (IPT)](https://www.youtube.com/watch?v=eDH9IoTrMVE&feature=emb_logo)
