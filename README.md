@@ -42,6 +42,7 @@
 
 
 ## Recursos
+### Presentaciones
 * [Presentaciones](https://drive.google.com/drive/folders/1iOsUtpDz5K82K4llXS1nde5olNq56rFE?usp=sharing)
 ### IPT
 * Página web del IPT  
