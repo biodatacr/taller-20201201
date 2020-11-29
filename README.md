@@ -23,7 +23,7 @@
 03. 09:45 a.m. [Demostración del IPT](https://docs.google.com/presentation/d/12dJsVmm_PJqDXk1evPOxmby4dAwL5DKlEX3pSWbLSQU/present?token=AC4w5VhSCMT0sKT9V9T4uWyYNEMze_4kHg%3A1606659553219&includes_info_params=1&eisi=CJrux5_5p-0CFcY8ygod82wE6w#slide=id.p4)
 
 04. 10:45 a.m. Café
-05. 11:00 a.m. Sesión práctica: Publicación de datos por medio del IPT
+05. 11:00 a.m. [Sesión práctica: Publicación de datos por medio del IPT](https://github.com/biodatacr/taller-publicacion-datos/tree/main/sesion-05)
 
 06. 12:30 p.m. Almuerzo
 
