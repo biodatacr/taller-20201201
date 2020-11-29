@@ -41,9 +41,9 @@
 11. 04:00 p.m. Sesión práctica (tarea): Indexación de datos en el portal de BIODATACR
 
 
-## Recursos
+## Recursos adicionales
 ### Presentaciones
-* [Presentaciones](https://drive.google.com/drive/folders/1iOsUtpDz5K82K4llXS1nde5olNq56rFE?usp=sharing)
+* [Presentaciones del taller](https://drive.google.com/drive/folders/1iOsUtpDz5K82K4llXS1nde5olNq56rFE?usp=sharing)
 ### IPT
 * IPT de Conagebio  
 [http://192.168.1.125:8080/ipt/](http://192.168.1.125:8080/ipt/)
