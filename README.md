@@ -45,7 +45,7 @@
 ### Presentaciones
 * [Presentaciones](https://drive.google.com/drive/folders/1iOsUtpDz5K82K4llXS1nde5olNq56rFE?usp=sharing)
 ### IPT
-* IPT de Conagebio
+* IPT de Conagebio  
 [http://192.168.1.125:8080/ipt/](http://192.168.1.125:8080/ipt/)
 * IPT para pruebas (en la nube)  
 [http://157.230.89.78:8080/ipt/](http://157.230.89.78:8080/ipt/)
