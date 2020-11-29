@@ -44,6 +44,8 @@
 ## Recursos adicionales
 ### Presentaciones
 * [Presentaciones del taller](https://drive.google.com/drive/folders/1iOsUtpDz5K82K4llXS1nde5olNq56rFE?usp=sharing)
+### Conjuntos de datos
+* [Registros de presencia](https://github.com/biodatacr/taller-publicacion-datos/tree/main/datos/presencia)
 ### IPT
 * IPT de Conagebio  
 [http://192.168.1.125:8080/ipt/](http://192.168.1.125:8080/ipt/)
