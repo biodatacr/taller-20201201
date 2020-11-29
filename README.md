@@ -15,7 +15,7 @@
     * Fuentes de datos
     * El estándar Darwin Core
     
-02. 08:45 a.m. [Conceptos de publicación de datos](https://docs.google.com/presentation/d/1TF1nG0WR0UoXI_tZQJMWBH_eQH5MpNxxWtEhTpscbRQ/edit?usp=sharing)
+02. 08:45 a.m. [Conceptos de publicación de datos](https://docs.google.com/presentation/d/1TF1nG0WR0UoXI_tZQJMWBH_eQH5MpNxxWtEhTpscbRQ/present?token=AC4w5ViHLBeoOcc-yTF0Km-a_FlYfh-MsA%3A1606657598499&includes_info_params=1&eisi=CLbgvPvxp-0CFQy5Jgodx38BaQ#slide=id.p4)
     * Licencias para compartir datos de biodiversidad
     * El Darwin Core Archive
     * El Integrated Publishing Toolkit (IPT)
