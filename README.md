@@ -53,7 +53,7 @@
 [IPT: The Integrated Publishing Toolkit](https://www.gbif.org/ipt/)
 * Video introductorio al IPT  
 [Introduction to publishing using the GBIF Integrated Publishing Toolkit (IPT)](https://www.youtube.com/watch?v=eDH9IoTrMVE&feature=emb_logo)
-* Guía de incio al IPT  
+* Guía de inicio al IPT  
 [Getting Started Guide](https://github.com/gbif/ipt/wiki/IPT2ManualNotes.wiki#getting-started-guide/)
 * Manual del usuario del IPT  
 [The IPT User Manual](https://github.com/gbif/ipt/wiki/IPT2ManualNotes.wiki#the-ipt-user-manual/)
