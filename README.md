@@ -9,36 +9,36 @@
 
 ## Agenda
 
-01. 08:00 a.m. Lectura y discusión de la agenda
+00. 08:00 a.m. Lectura y discusión de la agenda
 
-02. 08:15 a.m. Fuentes de datos de biodiversidad
+01. 08:15 a.m. Fuentes de datos de biodiversidad
     * Fuentes de datos
     * El estándar Darwin Core
     
-03. 08:45 a.m. Conceptos de publicación de datos
+02. 08:45 a.m. Conceptos de publicación de datos
     * Licencias para compartir datos de biodiversidad
     * El Darwin Core Archive
     * El Integrated Publishing Toolkit (IPT)
     
-04. 09:45 a.m. Demostración del IPT
+03. 09:45 a.m. Demostración del IPT
 
-05. 10:45 a.m. Café
-06. 11:00 a.m. Sesión práctica: Publicación de datos por medio del IPT
+04. 10:45 a.m. Café
+05. 11:00 a.m. Sesión práctica: Publicación de datos por medio del IPT
 
-07. 12:30 p.m. Almuerzo
+06. 12:30 p.m. Almuerzo
 
-08. 01:30 p.m. Introducción al portal de BIODATACR
+07. 01:30 p.m. Introducción al portal de BIODATACR
     * Arquitectura
     * Tecnologías utilizadas
     * Administración de datos
     
-09. 02:30 p.m. Indexación de datos en el portal de BIODATACR
+08. 02:30 p.m. Indexación de datos en el portal de BIODATACR
 
-10. 03:00 p.m. Café
+09. 03:00 p.m. Café
 
-11. 03:15 p.m. Manejo de capas geoespaciales
+10. 03:15 p.m. Manejo de capas geoespaciales
 
-12. 04:00 p.m. Sesión práctica (tarea): Indexación de datos en el portal de BIODATACR
+11. 04:00 p.m. Sesión práctica (tarea): Indexación de datos en el portal de BIODATACR
 
 
 ## Recursos
