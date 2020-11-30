@@ -5,4 +5,4 @@ Utilice la instalación de IPT disponible en [http://192.168.1.125:8080/ipt/](ht
 * [Parcelas permanentes del Catie](https://github.com/biodatacr/taller-publicacion-datos/tree/main/datos/presencia/arboles_palmas_helechos_lianas-cr)
 * [Orugas del ACG](https://github.com/biodatacr/taller-publicacion-datos/tree/main/datos/presencia/orugas-acg)
 
-Utilice la documentación anexa para llenar la sección de metadatos.
+Utilice la documentación anexa a cada conjunto de datos (si está disponible) para llenar la sección de metadatos en el IPT.
