@@ -56,7 +56,28 @@ Lista de capas en el [servicio WFS de cartografía 1:5000 del Instituto Geográf
 ```shell
 $ ogrinfo WFS:"http://geos.snitcr.go.cr/be/IGN_5/wfs"
 ```
-
+```
+INFO: Open of `WFS:http://geos.snitcr.go.cr/be/IGN_5/wfs'
+      using driver `WFS' successful.
+Metadata:
+  ABSTRACT=This is the reference implementation of WFS 1.0.0 and WFS 1.1.0, supports all WFS operations including Transaction.
+  PROVIDER_NAME=The Ancient Geographers
+  TITLE=SNIT Web Feature Service
+1: IGN_5:forestal2017_5k
+2: IGN_5:indice_5000
+3: IGN_5:cultivos2017_5k
+4: IGN_5:curvas_5000
+5: IGN_5:delimitacion2017_5k
+6: IGN_5:edificaciones2017_5k
+7: IGN_5:hidrografia_5000
+8: IGN_5:limitecantonal_5k
+9: IGN_5:limitedistrital_5k
+10: IGN_5:limiteprovincial_5k
+11: IGN_5:linea_costa_5000
+12: IGN_5:pastos2017_5k
+13: IGN_5:urbano_5000
+14: IGN_5:vias_5000
+```
 
 
 
