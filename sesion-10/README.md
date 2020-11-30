@@ -13,3 +13,5 @@ El modelo vectorial de datos está basado en puntos localizados en un [sistema d
 La especificación define 17 tipos de geometrías, de las cuales siete son las más comúnmente utilizadas. Estas últimas se muestran en la siguiente figura:
 
 ![Tipos de geometrías de Simple Features más usadas. Imagen de Robin Lovelace et al. (https://geocompr.robinlovelace.net/spatial-class.html#vector-data)](img/sf_types.png)
+
+## Datos raster
