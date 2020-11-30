@@ -2,12 +2,14 @@
 
 La información y los datos geográficos (a veces llamados también espaciales o geoespaciales) hacen referencia a la localización de un objeto o fenómeno en un espacio geográfico. Esta referencia puede ser implícita (ej. mediante el nombre de un lugar) o explícita, en un [sistema de coordenadas](https://en.wikipedia.org/wiki/Geographic_coordinate_system).
 
-Hay dos tipos de datos geográficos: vectoriales y raster
+## Tipos de datos
 
-## Datos vectoriales
+Hay dos tipos de datos geográficos: vectoriales y raster.
+
+### Datos vectoriales
 El modelo vectorial de datos está basado en puntos localizados en un sistema de coordenadas. Los puntos individuales pueden representar objetos independientes (ej. la localización de un poste eléctrico o de una cabina telefónica) o pueden también agruparse para formar geometrías más complejas como líneas o polígonos. Por lo general, los puntos tienen solo dos dimensiones (x, y), a las que se les puede agregar una tercera dimensión _z_, usualmente correspondiente a la altitud sobre el nivel del mar.
 
-### El estándar Simple Features
+#### El estándar Simple Features
 [Simple Features](https://www.ogc.org/standards/sfa) (o Simple Feature Access) es un estándar abierto de la [Organización Internacional de Estandarización (ISO)](https://iso.org/) y del [Open Geospatial Consortium (OGC)](https://www.ogc.org/) que especifica un modelo común de almacenamiento y acceso para geometrías de dos dimensiones (líneas, polígonos, multilíneas, multipolígonos, etc.). El estándar es implementado por muchas bibliotecas y bases de datos geoespaciales como [sf](https://cran.r-project.org/web/packages/sf/index.html), [GDAL](https://gdal.org/), [PostgreSQL/PostGIS](https://en.wikipedia.org/wiki/PostGIS), [SQLite/SpatiaLite](https://www.gaia-gis.it/fossil/libspatialite/), [Oracle Spatial](https://www.oracle.com/database/technologies/spatialandgraph.html) y [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/), entre muchas otras.
 
 La especificación define 17 tipos de geometrías, de las cuales siete son las más comúnmente utilizadas. Estas últimas se muestran en la figura 1.
@@ -17,7 +19,7 @@ La especificación define 17 tipos de geometrías, de las cuales siete son las m
   <figcaption><strong>Figura 1.</strong> Tipos de geometrías de Simple Features más usadas. Imagen de Robin Lovelace et al. (https://geocompr.robinlovelace.net/spatial-class.html#vector-data)</figcaption>
 </figure>
 
-## Datos raster
+### Datos raster
 El modelo de datos raster usualmente consiste de un encabezado y de una matriz con celdas (también llamadas pixeles) de un mismo tamaño. El encabezado define el sistema de coordenadas, la extensión y el punto de origen de una capa raster. Por lo general, el origen se ubica en la esquina inferior izquierda o en la esquina superior izquierda de la matriz. La extensión se define mediante el número de filas, el número de columnas y el tamaño (resolución) de la celda.
 
 Cada celda tiene una identificación (ID) y almacena un único valor, el cual puede ser numérico o categórico, como se muestra en la figura 2. 
@@ -37,4 +39,11 @@ Los mapas raster generalmente almacenan fenómenos continuos como elevación, pr
   <figcaption><strong>Figura 3.</strong> Ejemplos de mapas raster continuos y categóricos. Imagen de Robin Lovelace et al. (https://geocompr.robinlovelace.net/spatial-class.html#raster-data)</figcaption>
 </figure>
 
-## Bibliotecas 
+## Software
+El software para manejo de datos e información geoespaciales incluye diversos tipos de aplicaciones, incluyendo servidores (ej. [GeoServer](http://geoserver.org/), [MapServer](https://mapserver.org/)), motores de bases de datos (ej. [PostgreSQL/PostGIS](https://postgis.net/), [Oracle Spatial](https://www.oracle.com/database/technologies/spatialandgraph/spatial-features.html)) y programas de escritorio (ej. [QGIS](https://www.qgis.org/), [ArcGIS Dektop](https://desktop.arcgis.com/)), entre otros.
+
+Todo este software está basado en varias bibliotecas que realizan funciones fundamentales, como conversiones entre formatos, operaciones geométricas y reproyecciones cartográficas. Entre las principales de estas bibliotecas pueden mencionarse:
+
+* **GDAL**: [Geospatial Data Abstraction Library (GDAL)](https://gdal.org/) es una biblioteca para leer y escribir datos geoespaciales en varios formatos [raster](https://gdal.org/drivers/raster/) y [vectoriales](https://gdal.org/drivers/vector/). Implementa un único [modelo abstracto de datos raster](https://gdal.org/user/raster_data_model.html) y un único [modelo abstracto de datos vectoriales](https://gdal.org/user/vector_data_model.html), lo que permite programar aplicaciones geoespaciales sin tener que ocuparse de las particularidades de cada formato que se utilice (GeoTIFF, NetCDF, ESRI Shapefile, GeoJSON, etc.). A pesar de que GDAL está programada en C/C++, cuenta con una interfaz de programación de aplicaciones (API) para varios lenguajes de programación, incluyendo [C](https://gdal.org/api/index.html#c-api), [C++](https://gdal.org/api/index.html#id3), [Python](https://gdal.org/python/index.html) y [Java](https://gdal.org/java/overview-summary.html). Además, ofrece un conjunto de [utilitarios de línea de comandos](https://gdal.org/programs/) cuyas [distribuciones binarias](https://gdal.org/download.html#binaries) están disponibles para varios sistemas operativos, incluyendo Windows, macOS y Linux.
+* **GEOS**: [Geometry Engine, Open Source (GEOS)](https://trac.osgeo.org/geos) es una implmentación en C++ de la biblioteca [JTS Topology Suite](http://www.tsusiatsoftware.net/jts/main.html) (desarrollada en Java) y que implementa un conjunto de operaciones y predicados geoespaciales (ej. unión, intersección, distancia, área).
+* **PROJ**: [PROJ](https://proj.org/) es una biblioteca que transforma coordenadas entre diferentes CRS, incluyendo tanto proyecciones cartográficas como transformaciones geodésicas.
