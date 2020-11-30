@@ -49,7 +49,7 @@ Todo este software está basado en varias bibliotecas que realizan funciones fun
 * **PROJ**: [PROJ](https://proj.org/) es una biblioteca que transforma coordenadas entre diferentes CRS, incluyendo tanto proyecciones cartográficas como transformaciones geodésicas.
 
 ## Ejemplos de manejo de datos geográficos
-### Utilitatios de línea de comandos de GDAL
+### Utilitarios de línea de comandos de GDAL
 La bilbioteca GDAL cuenta con un conjunto de [utilitarios de línea de comandos](https://gdal.org/programs/) cuyas [distribuciones binarias](https://gdal.org/download.html#binaries) están disponibles para varios sistemas operativos, incluyendo Windows, macOS y Linux. También están incluídos en la plataforma de ciencia de datos llamada [Anaconda](https://www.anaconda.com/), la cual cuenta con versiones para todos los sistemas operativos mencionados. Para el caso de Windows, están disponibles a través de [OSGeo4W](https://www.osgeo.org/projects/osgeo4w/), un conjunto de aplicaciones geoespaciales que puede instalarse junto con QGIS, entre otras opciones.
 
 #### Ejemplos de comandos
