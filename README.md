@@ -36,7 +36,7 @@
 
 09. 03:00 p.m. Café
 
-10. 03:15 p.m. [Datos geoespaciales](https://github.com/biodatacr/taller-publicacion-datos/tree/main/sesion-10)
+10. 03:15 p.m. [Información y datos geoespaciales](https://github.com/biodatacr/taller-publicacion-datos/tree/main/sesion-10)
 
 11. 04:00 p.m. Sesión práctica (tarea): Indexación de datos en el portal de BIODATACR
 
