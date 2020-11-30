@@ -53,7 +53,7 @@ Todo este software está basado en varias bibliotecas que realizan funciones fun
 La bilbioteca GDAL cuenta con un conjunto de [utilitarios de línea de comandos](https://gdal.org/programs/) cuyas [distribuciones binarias](https://gdal.org/download.html#binaries) están disponibles para varios sistemas operativos, incluyendo Windows, macOS y Linux. También están incluídos en la plataforma de ciencia de datos llamada [Anaconda](https://www.anaconda.com/), la cual cuenta con versiones para todos los sistemas operativos mencionados. Para el caso de Windows, están disponibles a través de [OSGeo4W](https://www.osgeo.org/projects/osgeo4w/), un conjunto de aplicaciones geoespaciales que puede instalarse junto con QGIS, entre otras opciones.
 
 #### Ejemplos de comandos
-Lista de capas en el [servicio WFS de cartografía 1:5000 del Instituto Geográfico Nacional (IGN)](https://www.snitcr.go.cr/ico_servicios_ogc_info?k=bm9kbzo6MjY=&nombre=IGN%20Cartograf%C3%ADa%201:5mil) en el [Sistema Nacional de Información Territorial (SNIT)](https://www.snitcr.go.cr/)
+**Listado de las capas disponibles en el [servicio WFS de cartografía 1:5000 del Instituto Geográfico Nacional (IGN)](https://www.snitcr.go.cr/ico_servicios_ogc_info?k=bm9kbzo6MjY=&nombre=IGN%20Cartograf%C3%ADa%201:5mil) en el [Sistema Nacional de Información Territorial (SNIT)](https://www.snitcr.go.cr/)**
 ```shell
 $ ogrinfo WFS:"http://geos.snitcr.go.cr/be/IGN_5/wfs"
 ```
@@ -80,7 +80,7 @@ Metadata:
 14: IGN_5:vias_5000
 ```
 
-Descarga de la capa de provincias
+**Descarga de la capa de provincias**
 ```shell
 # Descarga en formato GeoJSON, proyección WGS84 y con validación de geometrías
 ogr2ogr -f GeoJSON -t_srs EPSG:4326 -makevalid provincias.geojson WFS:"http://geos.snitcr.go.cr/be/IGN_5/wfs" "IGN_5:limiteprovincial_5k"
