@@ -11,7 +11,7 @@
 
 00. 08:00 a.m. Lectura y discusión de la agenda
 
-01. 08:15 a.m. [Fuentes de datos de biodiversidad](https://drive.google.com/file/d/1ApDUWeB4ZL2YY36_bGYtvfiVeq4yjUu_/view?usp=sharing)
+01. 08:15 a.m. [Fuentes de datos de biodiversidad](https://drive.google.com/file/d/1WLBAby6zxUkjtieT2rgn-SOfTUtjrOFJ/view?usp=sharing)
     * Fuentes de datos
     * [El estándar Darwin Core](https://dwc.tdwg.org/)
     
@@ -38,7 +38,7 @@
 
 10. 03:15 p.m. [Información y datos geográficos](https://github.com/biodatacr/taller-publicacion-datos/tree/main/sesion-10)
 
-11. 04:00 p.m. [Sesión práctica (tarea): Indexación de datos en el portal de BIODATACR](https://drive.google.com/file/d/1pPyBY3TiJbtfoymHCBFpS5ezwT-M_Xds/view?usp=sharing)
+11. 04:00 p.m. [Sesión práctica (tarea): Indexación de datos en el portal de BIODATACR]()
 
 
 ## Recursos adicionales
