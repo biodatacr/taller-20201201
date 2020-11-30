@@ -26,7 +26,7 @@ Cada celda tiene una identificación (ID) y almacena un único valor, el cual pu
   <img src="img/modelo_raster.png" alt="El modelo raster: (A) ID de las celdas, (B) valores de las celdas, (C) mapa raster de colores">
   <figcaption>El modelo raster: (A) ID de las celdas, (B) valores de las celdas, (C) mapa raster de colores. Imagen de Robin Lovelace et al. (https://geocompr.robinlovelace.net/spatial-class.html#raster-data)</figcaption>
 </figure>
-  
+<p>
 
 A diferencia del modelo vectorial, el modelo raster no necesita almacenar todas las coordenadas de cada geometría (i.e. las esquinas de las celdas), debido a que la ubicación de cada celda puede calcularse a partir de la información contenida en el encabezado. Esta simplicidad, en conjunto con el [álgebra de mapas](https://en.wikipedia.org/wiki/Map_algebra), permiten que el procesamiento de datos raster sea mucho más eficiente que el procesamiento de datos vectoriales. Por otra parte, el modelo vectorial es mucho más flexible en cuanto a las posibilidades de representación de geometrías y almacenamiento de valores, por medio de múltiples elementos de datos.
 
