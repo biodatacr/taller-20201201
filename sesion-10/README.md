@@ -90,3 +90,11 @@ Metadata:
 $ ogr2ogr -f GeoJSON -t_srs EPSG:4326 -makevalid provincias.geojson WFS:"http://geos.snitcr.go.cr/be/IGN_5/wfs" "IGN_5:limiteprovincial_5k"
 ```
 
+**Conversión de CSV a un formato geoespacial**
+Para el siguiente ejemplo, debe descargarse el archivo con registros de presencia en Costa Rica de la familia *Viperidae* disponible en [https://api.gbif.org/v1/occurrence/download/request/0126481-200613084148143.zip](https://api.gbif.org/v1/occurrence/download/request/0126481-200613084148143.zip). Este archivo ZIP debe descomprimirse y renombrarse como viperidae.csv.
+
+```shell
+# Conversión a formato GeoJSON
+
+$ ogr2ogr -f GeoJSON viperidae.geojson viperidae.csv -oo X_POSSIBLE_NAMES=decimalLongitude -oo Y_POSSIBLE_NAMES=decimalLatitude
+```
