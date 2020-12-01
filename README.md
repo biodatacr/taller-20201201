@@ -27,7 +27,7 @@
 
 06. 12:30 p.m. Almuerzo
 
-07. 01:30 p.m. [Introducción al portal de BIODATACR] (https://drive.google.com/file/d/1nzYuKuXSL81HMO-FOkULkNQgePCDNHVE/view?usp=sharing)
+07. 01:30 p.m. [Introducción al portal de BIODATACR](https://drive.google.com/file/d/1nzYuKuXSL81HMO-FOkULkNQgePCDNHVE/view?usp=sharing)
     * Arquitectura
     * Tecnologías utilizadas
     * Administración de datos
