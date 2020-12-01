@@ -129,5 +129,5 @@ GROUP BY p.cod_provin"
 $ ogr2ogr -f GeoJSON viperidae_especies_x_provincia.geojson provincias.geojson -dialect sqlite -sql "SELECT p.geometry, p.cod_provin, Count(DISTINCT scientificName) especies FROM provincias p, 'viperidae.geojson'.viperidae v WHERE taxonRank = 'SPECIES' AND ST_Contains(p.geometry, v.geometry) GROUP BY p.cod_provin"
 ```
 
-**Ejercicio**
+**Ejercicio**  
 Genere mapas de cantidades de registros y especies de trogones (género *Trogon*) por área silvestre protegida (ASP). Puede obtener los registros de presencia del portal de la Infraestructura Mundial de Información en Biodiversidad (GBIF) y las geometrías de las ASP del [Sistema Nacional de Información Territorial (SNIT)](https://www.snitcr.go.cr/).
