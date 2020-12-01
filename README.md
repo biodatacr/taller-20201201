@@ -27,12 +27,12 @@
 
 06. 12:30 p.m. Almuerzo
 
-07. 01:30 p.m. Introducción al portal de BIODATACR
+07. 01:30 p.m. [Introducción al portal de BIODATACR] (https://drive.google.com/file/d/1nzYuKuXSL81HMO-FOkULkNQgePCDNHVE/view?usp=sharing)
     * Arquitectura
     * Tecnologías utilizadas
     * Administración de datos
     
-08. 02:30 p.m. [Indexación de datos en el portal de BIODATACR](https://drive.google.com/file/d/1nzYuKuXSL81HMO-FOkULkNQgePCDNHVE/view?usp=sharing)
+08. 02:30 p.m. Indexación de datos en el portal de BIODATACR
 
 09. 03:00 p.m. Café
 
