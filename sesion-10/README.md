@@ -99,7 +99,7 @@ Para el siguiente ejemplo, debe descargarse el archivo con registros de presenci
 $ ogr2ogr -f GeoJSON viperidae.geojson viperidae.csv -oo X_POSSIBLE_NAMES=decimalLongitude -oo Y_POSSIBLE_NAMES=decimalLatitude
 ```
 
-**Agrupación de datos**
+**Agrupación de datos**  
 Mediante el lenguaje [Structured Query Language (SQL)](https://en.wikipedia.org/wiki/SQL), es posible construir consultas que involucren una o más capas geoespaciales.
 ```shell
 # Cantidad de registros de presencia por provincia
