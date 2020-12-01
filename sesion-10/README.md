@@ -87,10 +87,10 @@ Metadata:
 # Descarga en formato GeoJSON, proyección WGS84 y con validación de geometrías
 
 # Provincias
-$ ogr2ogr -f GeoJSON -t_srs EPSG:4326 -makevalid provincias.geojson WFS:"http://geos.snitcr.go.cr/be/IGN_5/wfs" "IGN_5:limiteprovincial_5k"
+$ ogr2ogr -f GeoJSON -t_srs EPSG:4326 -makevalid provincias.geojson -nln provincias WFS:"http://geos.snitcr.go.cr/be/IGN_5/wfs" "IGN_5:limiteprovincial_5k"
 ```
 
-**Conversión de CSV a un formato geoespacial**
+**Conversión de un archivo CSV a un formato geoespacial**  
 Para el siguiente ejemplo, debe descargarse el archivo con registros de presencia en Costa Rica de la familia *Viperidae* disponible en [https://api.gbif.org/v1/occurrence/download/request/0126481-200613084148143.zip](https://api.gbif.org/v1/occurrence/download/request/0126481-200613084148143.zip). Este archivo ZIP debe descomprimirse y renombrarse como viperidae.csv.
 
 ```shell
@@ -98,3 +98,36 @@ Para el siguiente ejemplo, debe descargarse el archivo con registros de presenci
 
 $ ogr2ogr -f GeoJSON viperidae.geojson viperidae.csv -oo X_POSSIBLE_NAMES=decimalLongitude -oo Y_POSSIBLE_NAMES=decimalLatitude
 ```
+
+**Agrupación de datos**
+Mediante el lenguaje [Structured Query Language (SQL)](https://en.wikipedia.org/wiki/SQL), es posible construir consultas que involucren una o más capas geoespaciales.
+```shell
+# Cantidad de registros de presencia por provincia
+
+# En sistemas UNIX
+$ ogr2ogr -f GeoJSON viperidae_registros_x_provincia.geojson provincias.geojson -dialect sqlite -sql \
+"SELECT p.geometry, p.cod_provin, Count(*) registros 
+FROM provincias p, 'viperidae.geojson'.viperidae v 
+WHERE ST_Contains(p.geometry, v.geometry) 
+GROUP BY p.cod_provin"
+
+# En sistemas Windows
+$ ogr2ogr -f GeoJSON viperidae_registros_x_provincia.geojson provincias.geojson -dialect sqlite -sql "SELECT p.geometry, p.cod_provin, Count(*) registros FROM provincias p, 'viperidae.geojson'.viperidae v WHERE ST_Contains(p.geometry, v.geometry) GROUP BY p.cod_provin"
+```
+
+```shell
+# Cantidad de registros de presencia por provincia
+
+# En sistemas UNIX
+$ ogr2ogr -f GeoJSON viperidae_especies_x_provincia.geojson provincias.geojson -dialect sqlite -sql \
+"SELECT p.geometry, p.cod_provin, Count(DISTINCT scientificName) especies 
+FROM provincias p, 'viperidae.geojson'.viperidae v 
+WHERE taxonRank = 'SPECIES' AND ST_Contains(p.geometry, v.geometry) 
+GROUP BY p.cod_provin"
+
+# En sistemas Windows
+$ ogr2ogr -f GeoJSON viperidae_especies_x_provincia.geojson provincias.geojson -dialect sqlite -sql "SELECT p.geometry, p.cod_provin, Count(DISTINCT scientificName) especies FROM provincias p, 'viperidae.geojson'.viperidae v WHERE taxonRank = 'SPECIES' AND ST_Contains(p.geometry, v.geometry) GROUP BY p.cod_provin"
+```
+
+**Ejercicio**
+Genere mapas de cantidades de registros y especies de trogones (género *Trogon*) por área silvestre protegida (ASP). Puede obtener los registros de presencia del portal de la Infraestructura Mundial de Información en Biodiversidad (GBIF) y las geometrías de las ASP del [Sistema Nacional de Información Territorial (SNIT)](https://www.snitcr.go.cr/).
