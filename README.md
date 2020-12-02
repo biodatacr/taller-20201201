@@ -49,8 +49,6 @@
 ### IPT
 * IPT de Conagebio  
 [http://192.168.1.125:8080/ipt/](http://192.168.1.125:8080/ipt/)
-* IPT para pruebas (en la nube)  
-[http://157.230.89.78:8080/ipt/](http://157.230.89.78:8080/ipt/)
 * Página web del IPT  
 [IPT: The Integrated Publishing Toolkit](https://www.gbif.org/ipt/)
 * Video introductorio al IPT  
