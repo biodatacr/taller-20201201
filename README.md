@@ -59,3 +59,8 @@
 [The IPT User Manual](https://github.com/gbif/ipt/wiki/IPT2ManualNotes.wiki#the-ipt-user-manual/)
 * Repositorio en GitHub del IPT  
 [IPT GitHub Repository](https://github.com/gbif/ipt)
+
+## Alertas
+
+* Problemas al actualizar la ubicación de la institución en el mapa del Atlas. Cuando se indica una dirección lat/lon en grados decimales o se ubica la dirección en el mapa lateral, muesta el siguiente error:
+![](Screenshot_20201222_122230.png)
